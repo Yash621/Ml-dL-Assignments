@@ -57,5 +57,13 @@ def math_operation_via_postman():
         return jsonify(result)
 
 
+@app.route('/yash')
+def addNum():
+    test1 = request.args.get('val1')
+    test2 = request.args.get('val2')
+    test3 = int(test1)+int(test2)
+    return '''<h1>the result is :{}</h1>'''.format(test3)
+
+
 if __name__ == '__main__':
     app.run()
