@@ -1,2 +1,2 @@
 # Ml-dL-Assignments
-This repo contains my submissions for ML and DL for my machine learning course
+This repository contains my submissions for ML and DL for my machine learning course
